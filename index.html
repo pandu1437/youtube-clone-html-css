@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>youtube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger" src="header/hamburger-menu.svg" alt="Menu">
+            <img class="youtubelogo" src="header/youtube-logo.svg" alt="YouTube Logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="search" aria-label="Search" />
+            <button class="search-button" aria-label="Search button">
+                <img class="searchsymbol" src="header/search.svg" alt="Search icon">
+                <div class="tooltip">search</div>
+            </button>
+            <button class="voice" aria-label="Voice search">
+                <img class="voice-icon" src="header/voice-search-icon.svg" alt="Voice search icon">
+            </button>
+        </div>
+        <div class="right-section">
+            <img class="upload" src="header/upload.svg" alt="Upload">
+            <img class="youtubeapps" src="header/youtube-apps.svg" alt="YouTube Apps">
+            <div class="notificationcontainer">
+                <img class="notifications" src="header/notifications.svg" alt="Notifications">
+            </div>
+            <img class="photo" src="header/channels4_profile (1).jpg" alt="User profile photo">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="header/sidebar/home.svg" alt="Home icon">
+            Home
+        </div>
+        <div class="sidebar-link">
+            <img src="header/sidebar/explore.svg" alt="Explore icon">
+            Explore
+        </div>
+        <div class="sidebar-link">
+            <img src="header/sidebar/subscriptions.svg" alt="Subscriptions icon">
+            Subscriptions
+        </div>
+        <div class="sidebar-link">
+            <img src="header/sidebar/originals.svg" alt="Originals icon">
+            Originals
+        </div>
+        <div class="sidebar-link">
+            <img src="header/sidebar/youtube-music.svg" alt="YouTube Music icon">
+            youtubemusic
+        </div>
+        <div class="sidebar-link">
+            <img src="header/sidebar/library.svg" alt="Library icon">
+            Library
+        </div>
+    </div>
+
+    <div>
+        <div class="video-grid">
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-1.webp" alt="Talking Tech and AI video thumbnail" />
+                    <div class="time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-1.jpeg" alt="Marques Brownlee profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                        <p class="video-author">Marques Brownlee</p>
+                        <p class="video-stas">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-2.webp" alt="Try Not To Laugh Challenge #9 video thumbnail" />
+                    <div class="time">8:22</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-2.jpeg" alt="Markiplier profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Try Not To Laugh Challenge #9</p>
+                        <p class="video-author">Markiplier</p>
+                        <p class="video-stas">19M views &#183; 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-3.webp" alt="Crazy Tik Toks Taken Moments Before DISASTER video thumbnail" />
+                    <div class="time">9:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-3.jpeg" alt="SSSniperWolf profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="video-author">SSSniperWolf</p>
+                        <p class="video-stas">12M views · 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-4.webp" alt="The Simplest Math Problem No One Can Solve - Collatz Conjecture video thumbnail" />
+                    <div class="time">22:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-4.jpeg" alt="veritasium profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                        <p class="video-author">veritasium</p>
+                        <p class="video-stas">18M views · 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-5.webp" alt="Kadane's Algorithm to Maximum Sum Subarray Problem video thumbnail" />
+                    <div class="time">11:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-5.jpeg" alt="CS Dojo profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                        <p class="video-author">CS Dojo</p>
+                        <p class="video-stas">519K views · 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-6.webp" alt="Anything You Can Fit In The Circle I’ll Pay For video thumbnail" />
+                    <div class="time">19:59</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-6.jpeg" alt="MrBeast profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="video-author">MrBeast</p>
+                        <p class="video-stas">141M views · 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-7.webp" alt="Why Planes Don't Fly Over Tibet video thumbnail" />
+                    <div class="time">10:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-7.jpeg" alt="RealLifeLore profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+                        <p class="video-author">RealLifeLore</p>
+                        <p class="video-stas">6.6M views · 10 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-8.webp" alt="Inside The World's Biggest Passenger Plane video thumbnail" />
+                    <div class="time">7:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-8.jpeg" alt="Tech vision profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Inside The World's Biggest Passenger Plane</p>
+                        <p class="video-author">Tech vision</p>
+                        <p class="video-stas">20M views · 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-9.webp" alt="The SECRET to Super Human STRENGTH video thumbnail" />
+                    <div class="time">13:17</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-9.jpeg" alt="ThenX profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">The SECRET to Super Human STRENGTH</p>
+                        <p class="video-author">ThenX</p>
+                        <p class="video-stas">14M views · 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-10.webp" alt="Building the Ultimate Gaming PC in 2025 video thumbnail" />
+                    <div class="time">12:34</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-10.jpeg" alt="Linus Tech Tips profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Building the Ultimate Gaming PC in 2025</p>
+                        <p class="video-author">Linus Tech Tips</p>
+                        <p class="video-stas">5M views · 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnail/thumbnail-11.webp" alt="The Fermi Paradox — Where Are All The Aliens? video thumbnail" />
+                    <div class="time">15:45</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/channel-11.jpeg" alt="Kurzgesagt – In a Nutshell profile" />
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">The Fermi Paradox — Where Are All The Aliens?</p>
+                        <p class="video-author">Kurzgesagt – In a Nutshell</p>
+                        <p class="video-stas">21M views · 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
