@@ -1,5 +1,4 @@
-# youtube-clone-html-css
-"A simple responsive YouTube homepage clone using only HTML and CSS."
+
 # 📺 YouTube Clone (HTML & CSS)
 
 A simple static clone of the YouTube homepage built using only HTML and CSS. This project is designed to replicate the layout and design of the original YouTube front-end, helping beginners understand how real-world UIs are structured and styled.
@@ -14,7 +13,5 @@ A simple static clone of the YouTube homepage built using only HTML and CSS. Thi
 - ✅ Responsive grid using Flexbox and CSS Grid  
 - ✅ Clean and semantic HTML structure  
 - ✅ Modern, mobile-friendly styling with media queries
-
-## 📁 Folder Structure
 
 
